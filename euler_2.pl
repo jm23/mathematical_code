@@ -20,7 +20,7 @@ GetOptions(
 
 ( $ceiling && !$help ) or die <<USAGE;
 Usage: $0   
-  -c|--ceiling				  <number BELOW which we calculate sum of even members of Fibonacci series>
+  -c|--ceiling		       <number BELOW which we calculate sum of even members of Fibonacci series>
   -h|--help                    <this message>
 USAGE
 
